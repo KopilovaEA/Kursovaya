@@ -1,0 +1,77 @@
+﻿<Window x:Class="Курсовая.Авторизация"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсовая"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="431.6" Width="348.065" Icon="pngwing.com.png">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="0"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="181*"/>
+            <RowDefinition Height="221*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFC6D0DC" Offset="0"/>
+                <GradientStop Color="#FF5E5E5E" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox Name="textbox1" HorizontalAlignment="Left" Height="33" Margin="61,51.2,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Width="229" RenderTransformOrigin="0.497,-0.128" Foreground="#FF213651" Grid.Row="1"/>
+        <Image Margin="-85,153,245.6,-59.6" Source="pngwing.com (4).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="-55,-9,259.6,111.4" Source="pngwing.com (4).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="14.155"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="-38,-65,268.6,54.8" Source="pngwing.com (4).png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-16.435"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <TextBox Name="textbox2" HorizontalAlignment="Left" Height="31" Margin="61,90.8,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="229" Foreground="#FF213651" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="198" Margin="73,0,-28.4,0" VerticalAlignment="Top" Width="297" Source="Logo HD.png" Grid.RowSpan="2"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="90,139.8,0,0" VerticalAlignment="Top" Width="164" Height="36" Foreground="#FF213651" BorderBrush="#FF00A6D3" FontWeight="Bold" FontFamily="Cooper Black" Click="Button_Click" FontSize="15" Grid.Row="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFDFDFF" Offset="0"/>
+                    <GradientStop Color="#FF00A6D3" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+       
+        <Image HorizontalAlignment="Left" Margin="24,51.2,0,137.4" Width="51" RenderTransformOrigin="0.65,2.917" Source="20190922_110138_00005.png" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="24,88.8,0,0" VerticalAlignment="Top" Width="55" Source="lock-icon-on-black-background-vector-207799395.jpg" RenderTransformOrigin="-0.428,-0.441" Grid.Row="1"/>
+        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="103,16.8,0,0" VerticalAlignment="Top" FontFamily="Showcard Gothic" FontSize="19" Height="34" Width="151" Background="#00000000" Foreground="#FF213651" FontWeight="Bold" Grid.Row="1"/>
+
+
+
+
+    </Grid>
+</Window>

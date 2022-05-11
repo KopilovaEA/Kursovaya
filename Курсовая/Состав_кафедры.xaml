@@ -1,0 +1,36 @@
+﻿<Window x:Class="Курсовая.Состав_кафедры"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсовая"
+        mc:Ignorable="d"
+        Title="Состав_кафедры" Height="487.8" Width="1377.965" Icon="Logo HD.png">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="fotooboi-e-59489-besshovnie-shablon-na-temu-informatsionnie-tehnologii-i-zarabo-zakazposterov-ru_z5.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <DataGrid Name="sostav" AutoGenerateColumns="True" HorizontalAlignment="Left" Height="388" Margin="424,10,0,0" VerticalAlignment="Top" Width="937" SelectionChanged="DataGrid_SelectionChanged"/>
+        <TextBox Name="textbox2" HorizontalAlignment="Left" Height="28" Margin="10,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404" FontSize="16" Background="#FFDBE4FC" RenderTransformOrigin="0.513,0.957"/>
+        <TextBox Name="textbox3" HorizontalAlignment="Left" Height="28" Margin="11,86,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404" FontSize="16" Background="#FFDBE4FC"/>
+        <TextBox Name="textbox4" HorizontalAlignment="Left" Height="28" Margin="11,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="403" FontSize="16" Background="#FFDBE4FC"/>
+        <TextBox Name="textbox5" HorizontalAlignment="Left" Height="28" Margin="11,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404" FontSize="16" Background="#FFDBE4FC"/>
+        <TextBox Name="textbox6" HorizontalAlignment="Left" Height="28" Margin="10,238,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404" FontSize="16" Background="#FFDBE4FC"/>
+        <TextBox Name="textbox7" HorizontalAlignment="Left" Height="28" Margin="11,294,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404" FontSize="16" Background="#FFDBE4FC" RenderTransformOrigin="0.491,-0.193"/>
+        <TextBox Name="textbox8" HorizontalAlignment="Left" Height="28" Margin="10,346,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="404" FontSize="16" Background="#FFDBE4FC"/>
+        <Button Name="button1" Content="Добавить" HorizontalAlignment="Left" Margin="16,409,0,0" VerticalAlignment="Top" Width="113" Height="39" FontSize="19" Background="#FF00A6D3" Foreground="#FF181A43" FontWeight="Bold" Click="button1_Click"/>
+        <Button Name="button2" Content="Удалить" HorizontalAlignment="Left" Margin="154,409,0,0" VerticalAlignment="Top" Width="112" Height="39" FontSize="19" Background="#FF00A6D3" Foreground="#FF181A43" FontWeight="Bold" RenderTransformOrigin="0.323,0.51" Click="button2_Click"/>
+        <Button Name="button3" Content="Изменить" HorizontalAlignment="Left" Margin="297,409,0,0" VerticalAlignment="Top" Width="118" Height="39" FontSize="19" Background="#FF00A6D3" Foreground="#FF181A43" FontWeight="Bold" RenderTransformOrigin="0.667,0.406" Click="button3_Click"/>
+        <Label Content="ФИО:" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="16" Height="29"/>
+        <Label Content="ЗанимаемаяД:" HorizontalAlignment="Left" Margin="10,53,0,0" VerticalAlignment="Top" Foreground="White" FontWeight="Bold" FontSize="16" Height="28"/>
+        <Label Content="Образование:" HorizontalAlignment="Left" Margin="8,107,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="White" Height="28"/>
+        <Label Content="Специальность:" HorizontalAlignment="Left" Margin="8,159,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="White" Height="27"/>
+        <Label Content="УченоеЗвание:" HorizontalAlignment="Left" Margin="11,213,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="White" Height="33"/>
+        <Label Content="Стаж:" HorizontalAlignment="Left" Margin="11,266,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="White" Height="28"/>
+        <Label Content="Дисциплины:" HorizontalAlignment="Left" Margin="8,318,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Foreground="White" Height="28"/>
+        <Button Content="Вернуться в главное меню" HorizontalAlignment="Left" Margin="1069,409,0,0" VerticalAlignment="Top" Width="292" FontSize="19" FontWeight="Bold" Height="39" Background="#FF00A6D3" Foreground="#FF181A43" BorderBrush="#FF181A43" Click="Button_Click_1"/>
+
+    </Grid>
+
+</Window>
+    

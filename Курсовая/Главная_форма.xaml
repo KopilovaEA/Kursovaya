@@ -1,0 +1,25 @@
+﻿<Window x:Class="Курсовая.Главная_форма"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Курсовая"
+        mc:Ignorable="d"
+        Title="Портфолио &quot; Кафедры начального общего образования&quot;" Height="450" Width="800" Background="#FF7F7B77" Icon="Logo HD.png">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="236" Margin="35,41,0,0" VerticalAlignment="Top" Width="227"/>
+        <Image HorizontalAlignment="Left" Height="303" Margin="60,28,0,0" VerticalAlignment="Top" Width="328" Source="Logo HD.png"/>
+        <Image HorizontalAlignment="Left" Height="198" Margin="0,277,0,-55" VerticalAlignment="Top" Width="168" Source="pencil-8.png"/>
+        <Image HorizontalAlignment="Left" Height="170" Margin="673,305,-80.4,-55" VerticalAlignment="Top" Width="201" Source="pencil-17.png"/>
+        <Image HorizontalAlignment="Left" Height="139" Margin="444,58,0,0" VerticalAlignment="Top" Width="116" Source="previewfile_2092104515.png" MouseUp="Image_MouseUp"/>
+        <Image HorizontalAlignment="Left" Height="98" Margin="650,41,0,0" VerticalAlignment="Top" Width="107" Source="folder-158761_1280.png"/>
+        <Image HorizontalAlignment="Left" Height="115" Margin="444,197,0,0" VerticalAlignment="Top" Width="135" Source="file-1294464_1280.png"/>
+        <Image HorizontalAlignment="Left" Height="113" Margin="650,192,0,0" VerticalAlignment="Top" Width="114" Source="Places-folder-green-icon.png"/>
+        <Label Content="Состав кафедры" HorizontalAlignment="Left" Margin="463,139,0,0" VerticalAlignment="Top"/>
+        <Label Content="График работы" HorizontalAlignment="Left" Margin="673,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="Фото" HorizontalAlignment="Left" Margin="483,305,0,0" VerticalAlignment="Top"/>
+        <Label Content="Отзывы" HorizontalAlignment="Left" Margin="673,305,0,0" VerticalAlignment="Top"/>
+        <Label Content="Сменить пользователя" HorizontalAlignment="Left" Margin="534,388,0,0" VerticalAlignment="Top" MouseUp="SP"/>
+
+    </Grid>
+</Window>
